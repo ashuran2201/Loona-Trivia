@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+$roboto-slab: 'Roboto Slab', serif;   
+$open-sans: 'Open Sans', sans-serif;
+$primary-color: #2ba6cb;
+$secondary-color: #3EDBF0;
+$text-primary: #ffffff;
+
+.memberlist-container {
+    background: linear-gradient(rgba(196, 29, 218, 0.5), rgba(140, 245, 21, 0.5));
+    border-radius: 5px;
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    overflow-y: hidden;
+
+    .cards  {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card  {
+        flex: 0 0 160px;
+        margin: 10px;
+    }
+
+    .memberphoto {
+        max-width: 100% !important;
+        height: 150px !important;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+
+    .card-title {
+        color: $text-primary;
+        font-size: 18px;
+        font-family: $open-sans;
+
+    }
+    .test {
+        text-decoration: none;
+    }
+    .titles {
+        color: $text-primary;
+        font-size: 38px;
+        font-family: $roboto-slab;
+        text-align: center;
+    }
+    .details  {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .proimg {
+        border-radius: 5px;
+        margin-left: 20px;
+        height: 200px;
+        width: 200px;
+    }
+    .data-detail {
+        flex: 0 0 600px;
+        margin: 0 100px;
+        color: $text-primary;
+        font-family: $open-sans;
+        font-size: 18px;
+        line-height: 1.5rem;
+        > p {
+            margin: 0 auto;
+        }
+    }
+    .back-btn {
+        position: absolute;
+        right: 10%;
+        top: 10%;
+    }
+}

@@ -1,0 +1,55 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+$roboto-slab: 'Roboto Slab', serif;   
+$open-sans: 'Open Sans', sans-serif;
+$primary-color: #2ba6cb;
+$secondary-color: #3EDBF0;
+$text-primary: #ffffff;
+
+.about-container {
+    background: linear-gradient(rgba(196, 29, 218, 0.5), rgba(140, 245, 21, 0.5));
+    border-radius: 5px;
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 500px;
+    overflow-y: scroll;
+
+
+
+    .whatis {
+        color: $text-primary;
+        font-family: $roboto-slab;
+        font-size: 38px;
+    }
+    .loona-desc {
+        text-align: center;
+        color: $text-primary;
+        font-family: $open-sans;
+        font-size: 18px;
+    }
+    .loona-history {
+        color: $text-primary;
+        font-family: $open-sans;
+        text-align: left;
+        font-size: 18px;
+    }
+
+    .MuiAppBar-colorPrimary {
+        background-color: transparent !important;
+    }
+    .makeStyles-root-1 {
+        background-color: transparent !important;
+        max-width: 100%;
+    }
+    .MuiButtonBase-root {
+        margin: 0 auto;
+        background-color: transparent !important;
+    }
+    .MuiContainer-root {
+        overflow-y: hidden !important;
+    }
+}
+

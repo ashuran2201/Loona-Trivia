@@ -1,0 +1,141 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+$roboto-slab: 'Roboto Slab',
+serif;
+$open-sans: 'Open Sans',
+sans-serif;
+$primary-color: #2ba6cb;
+$secondary-color: #3EDBF0;
+$text-primary: #ffffff;
+
+.disc-container {
+    background: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+    height: 600px;
+    width: 1100px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    text-align: center;
+    border-radius: 5px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    .sub-title {
+        color: $text-primary;
+        font-family: $open-sans;
+        font-size: 18px;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        flex: 0 0 160px;
+        margin: 10px;
+    }
+
+    .disc-image {
+        max-width: 100% !important;
+        height: 150px !important;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+
+    .card-title {
+        color: $text-primary;
+        font-size: 18px;
+        font-family: $open-sans;
+
+    }
+
+    .test {
+        text-decoration: none;
+    }
+
+    .back-btn {
+        position: absolute;
+        right: 10%;
+        top: 10%;
+    }
+    .back-btns {
+        position: absolute;
+        right: 10%;
+        top: 5%;
+    }
+
+    .titles {
+        color: $text-primary;
+        font-size: 38px;
+        font-family: $roboto-slab;
+        text-align: center;
+    }
+
+    .details {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .proimg {
+        border-radius: 5px;
+        margin-left: 20px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .data-detail {
+        width: 75%;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    .datas {
+        color: $text-primary;
+        font-size: 18px;
+        font-weight: normal;
+
+    }
+
+    .datalist {
+        text-align: left;
+        color: $text-primary;
+        font-family: $open-sans;
+        border-collapse: separate;
+        border-spacing: 10px 20px;
+        margin: 0;
+        padding: 0;
+        border: 1px solid honeydew;
+        .vertical {
+            border: 1px solid honeydew;
+        }
+        .verticals {
+            border: 1px solid honeydew;
+        }
+        .ver {
+            border: 1px solid honeydew;
+        }
+        .title-list {
+            list-style-type: none;
+            width: 100%;
+        }
+        .title-lists {
+            list-style-type: none;
+            border: 1px solid honeydew;
+            width: 100%;
+        }
+    }
+    .trivialist {
+        text-align: left;
+        color: $text-primary;
+        font-family: $open-sans;
+        border: 1px solid honeydew;
+        .title-list {
+            list-style-type: none;
+        }
+    }
+}
+    

@@ -1,0 +1,39 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+$roboto-slab: 'Roboto Slab',
+serif;
+$open-sans: 'Open Sans',
+sans-serif;
+$primary-color: #2ba6cb;
+$secondary-color: #3EDBF0;
+$text-primary: #ffffff;
+
+.footer-container {
+    height: 60px;
+    background-color: rgb(207, 206, 206);
+    position: relative;
+    padding: 0 !important;
+    overflow-y: hidden;
+
+    .logo {
+        width: 50px;
+        margin: 5px 5px;
+        float: left;
+    }
+
+    .orbits {
+        width: 10%;
+        padding: 0 10px;
+        margin: 0 0 10px 0;
+        font-style: $open-sans;
+        font-size: 12px;
+    }
+
+    .arr {
+        font-size: 12px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%)
+    }
+}
